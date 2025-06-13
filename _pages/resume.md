@@ -1,6 +1,7 @@
 ---
 permalink: /resume/
 title: "Pawel Kusinski Resume"
+classes: wide
 ---
 
 ## Summary
