@@ -1,5 +1,6 @@
 ---
 title: "Practical Use Cases of X Macros in C"
+last_modified_at: 2025-06-24
 categories:
   - Programming
 tags:
@@ -227,14 +228,14 @@ void gpio_pull_down(uint gpio);
 A naive, repetitive implementation might look like:
 ```c
 void initGpio(void) {
-    printf("Initializing " "LED_RED" " pin...\n");
+    printf("Initializing LED_RED pin...\n");
     gpio_init(0);
     gpio_set_dir(0, 1);
     gpio_put(0, 1);
 
     /* more pins... */
 
-    printf("Initializing " "LED_GREEN" " pin...\n");
+    printf("Initializing LED_GREEN pin...\n");
     gpio_init(2);
     gpio_set_dir(2, 1);
     gpio_put(2, 0);
