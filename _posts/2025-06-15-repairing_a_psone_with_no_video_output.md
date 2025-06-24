@@ -1,5 +1,7 @@
 ---
 title: "Repairing a PSOne with No Video Output"
+excerpt: "In this post, I'll describe how I fixed one of my PSOne consoles. I got this console as part of a larger
+lot consisting of five PSX and two PSOne consoles. They came as \"untested,\" \"broken,\" or \"for parts.\""
 categories:
   - Restorations
 tags:

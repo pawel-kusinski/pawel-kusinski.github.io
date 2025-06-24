@@ -1,5 +1,8 @@
 ---
 title: "Practical Use Cases of X Macros in C"
+excerpt: "An X macro is a powerful preprocessor technique in which we define a list of data entries.
+This data list is then plugged into logic blocks that are executed once per data entry.
+Using X macros can help minimize writing repetitive code."
 last_modified_at: 2025-06-24
 categories:
   - Programming

@@ -1,5 +1,7 @@
 ---
 title: "How to Make a Photo Collage in GIMP"
+excerpt: "In this post, I will explain how to make a simple photo collage in GIMP.
+Project details: We have 4 images. Each image is in landscape orientation and has a 4:3 aspect ratio."
 categories:
   - Misc
 tags:

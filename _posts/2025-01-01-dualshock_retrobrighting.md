@@ -1,5 +1,7 @@
 ---
 title: "DualShock Retrobrighting"
+excerpt: "In this post, I'll show you how I did my retrobrighting project on the original PSX DualShock controller.
+It's not uncommon for old electronics to turn yellow over time."
 categories:
   - Restorations
 tags:

@@ -1,5 +1,7 @@
 ---
 title: "_Generic Keyword in C"
+excerpt: "In this post, I will present an interesting feature introduced in C11: the `_Generic` keyword.
+At times, it may seem like the C language is not receiving new features in new standard revisions, and changes are limited to small improvements."
 categories:
   - Programming
 tags:
