@@ -17,3 +17,10 @@ Feel free to reach out:
 
 [pawel@kusinski.net](mailto:pawel@kusinski.net)
 
+#### Disclaimer
+
+*This site is my personal space for sharing opinions, insights, projects, and experiences. All views expressed here
+are my own and are not affiliated with, endorsed by, or representative of any current or past employer.
+Any content - including technical posts, commentary, or documentation - reflects my personal thinking and interests,
+and should not be taken as professional advice or official position of any organization I have worked with.*
+
