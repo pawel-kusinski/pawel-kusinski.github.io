@@ -2,6 +2,7 @@
 title: "_Generic Keyword in C"
 excerpt: "In this post, I will present an interesting feature introduced in C11: the `_Generic` keyword.
 At times, it may seem like the C language is not receiving new features in new standard revisions, and changes are limited to small improvements."
+last_modified_at: 2025-07-14
 categories:
   - Programming
 tags:
@@ -85,8 +86,17 @@ Let's break it down and analyze the syntax explanation from [cppreference.com](h
 > `_Generic ( controlling-expression , association-list )`
 > where `association-list` is a comma-separated list of associations, each of which has the syntax `type-name : expression`.
 
-
 Whenever we call `calculateArea(x)`, the compiler checks the type of `x`. When `x` is of type `Square_t`, then `calculateAreaSquare` is selected. When `x` is of type `Circle_t`, then `calculateAreaCircle` is selected. When the type of `x` is neither `Square_t` nor `Circle_t`, the compilation will fail unless a default label is defined, which must have an expression that works properly with the object of the given type. The `(x)` at the end of the definition is necessary for the correct function call syntax.
+
+Note that after the last element of the association list we don't place a comma! I made that mistake several times and had a hard time figuring out what syntax error I was making. When defining an enum, sometimes I like to put a comma after the last enum element because it makes it convenient to add another item using copy-paste hotkeys, without the need to add a comma to the new second-last element of the enum. Unfortunately, this practice doesn't work with `_Generic` association lists! If you add a comma after the last element, your code won't compile.
+
+```c
+_Generic(x,
+    int: "int",
+    float: "float",
+    // error - don't place comma after "float"
+)
+```
 
 The complete code is as follows. Note that the code in the `main` function is the same as its C++ counterpart, except for the functions used to print to standard output:
 
