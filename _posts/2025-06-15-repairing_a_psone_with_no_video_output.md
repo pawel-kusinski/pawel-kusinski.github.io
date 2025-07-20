@@ -9,7 +9,7 @@ tags:
   - PlayStation
 ---
 
-This post is not a tutorial—just a documentation of my own repair for entertainment and reference purposes only. If you try something similar, do so at your own risk.
+This post is not a tutorial - just a documentation of my own repair for entertainment and reference purposes only. If you try something similar, do so at your own risk.
 {: .notice--warning}
 
 ## Introduction
@@ -19,11 +19,11 @@ I paid £53 for the entire lot, including international shipping, which breaks d
 
 ## The Patient
 
-Today's patient is a PSOne — the smaller variant of the original PlayStation (PSX).
+Today's patient is a PSOne - the smaller variant of the original PlayStation (PSX).
 * Model No: SCPH-102
 * Region: PAL
 * Serial Number: B1533954
-* Made in China — the other PSOne from this lot is marked "Made in Japan," so I think it's worth documenting the difference.
+* Made in China - the other PSOne from this lot is marked "Made in Japan," so I think it's worth documenting the difference.
 
 <figure class="half">
     <a href="/assets/images/psone_2_first_check.jpg"><img src="/assets/images/psone_2_first_check.jpg"></a>
@@ -39,7 +39,7 @@ This is a common issue in PSOnes, and there's also a well-known way to fix it.
 
 ### Problem #2: Discs Not Reading
 
-Even though there's no picture — so I can't test games — I already know the disc drive isn't working well. How do I know that? By listening to the audio output.
+Even though there's no picture - so I can't test games - I already know the disc drive isn't working well. How do I know that? By listening to the audio output.
 
 When a PlayStation powers up, it shows the Sony Computer Entertainment logo while playing the first part of the startup sound. Then, if a disc is present in the drive, it transitions to the PlayStation logo and plays the second part of the startup sound.
 You can see this startup sequence in the video linked below:
@@ -52,7 +52,7 @@ I know the game I put in this PSOne plays an opening sequence with music, and I 
 
 Unlike modern devices, old electronics are usually simple to open and disassemble. Typically, there’s a bunch of Philips or similar screws to remove, and then the case opens. Usually, there are no tricky tabs or hidden fasteners.
 
-This PSOne, however, wasn’t easy to open. All the screws were stripped — some of them really badly.
+This PSOne, however, wasn’t easy to open. All the screws were stripped - some of them really badly.
 This is usually caused by using the wrong screwdriver size, overtightening (causing the driver to slip), or just from being opened and reassembled too many times. Screws made from softer metals deform more easily.
 
 <figure class="half">
@@ -63,7 +63,7 @@ This is usually caused by using the wrong screwdriver size, overtightening (caus
 
 ## Cracking it Open
 
-There are six screws to remove. Some were moderately stripped, others looked nearly impossible to remove. When you see a stripped screw, it's best not to try removing it with a standard screwdriver — that will most likely make it worse. Here are some methods I tried:
+There are six screws to remove. Some were moderately stripped, others looked nearly impossible to remove. When you see a stripped screw, it's best not to try removing it with a standard screwdriver - that will most likely make it worse. Here are some methods I tried:
 
 ### Rubber Band Method
 
@@ -99,12 +99,12 @@ It involves drilling through the screw head until it detaches from the shaft. I 
 This was my first time doing this, and while it worked, I learned a few lessons:
 
 * **Use sharp, good-quality drill bits.**
-  Worn-out bits require excessive pressure, which is dangerous and can damage nearby components — especially PCBs with multiple layers.
+  Worn-out bits require excessive pressure, which is dangerous and can damage nearby components - especially PCBs with multiple layers.
 
 * **Be patient and drill slowly.**
   If you drill too fast, you can slip through the plastic or damage the board.
 
-I wasn’t patient enough, and while drilling one of the screws, I applied too much pressure. My drill shaved off some PCB and a connector. Luckily, there were no copper traces in that area — just the ground plane — so the damage didn't affect functionality. Next time, I’ll be more careful.
+I wasn’t patient enough, and while drilling one of the screws, I applied too much pressure. My drill shaved off some PCB and a connector. Luckily, there were no copper traces in that area - just the ground plane - so the damage didn't affect functionality. Next time, I’ll be more careful.
 
 <figure class="half">
     <a href="/assets/images/psone_2_drilled_through_pcb.jpg"><img src="/assets/images/psone_2_drilled_through_pcb.jpg"></a>
@@ -137,10 +137,10 @@ In the picture below, you can see what these capacitors looked like in my PSOne.
 
 ### Replacing Bad Capacitors
 
-I found 220 µF, 10 V capacitors in my parts bin — lucky to have the exact size needed.
+I found 220 µF, 10 V capacitors in my parts bin - lucky to have the exact size needed.
 I removed the old caps using a soldering iron. Given all the plastic connectors nearby, I decided that the soldering iron was safer than a hot air station.
 
-I heated one pad at a time while gently lifting the capacitor. I alternated sides until it lifted off. Patience is key — pulling too early risks ripping off the pad.
+I heated one pad at a time while gently lifting the capacitor. I alternated sides until it lifted off. Patience is key - pulling too early risks ripping off the pad.
 I’m not very experienced with hot air tools, and the plastic parts around made me nervous, so the iron was the better choice here.
 
 <figure class="half">
@@ -160,7 +160,7 @@ After replacing the capacitors, the video output worked. Very satisfying!
 ### Checking Old Capacitors
 
 I was curious to measure the old capacitors. I soldered leads to their pads to plug them into my tester.
-They showed capacitance in pico- and nano-Farads — nowhere near the expected 220 µF. Definitely bad.
+They showed capacitance in pico- and nano-Farads - nowhere near the expected 220 µF. Definitely bad.
 
 <figure class="half">
     <a href="/assets/images/psone_2_cap_1_reading.jpg"><img src="/assets/images/psone_2_cap_1_reading.jpg"></a>
@@ -171,10 +171,10 @@ They showed capacitance in pico- and nano-Farads — nowhere near the expected 2
 ## Fixing the Laser
 
 It’s common for the laser to wear out over time, resulting in discs not being read.
-There’s a method to prolong its life — adjusting the potentiometer on the laser assembly.
+There’s a method to prolong its life - adjusting the potentiometer on the laser assembly.
 I was ready to try that, but first I tried something simpler: cleaning the laser lenses.
 
-I soaked a cotton bud in isopropyl alcohol and gently wiped the lenses. To my surprise, that was enough — the console now reads discs, and there’s no need to tweak anything.
+I soaked a cotton bud in isopropyl alcohol and gently wiped the lenses. To my surprise, that was enough - the console now reads discs, and there’s no need to tweak anything.
 
 In the pictures below, you can see the laser before and after cleaning. It wasn’t visibly dirty, and there’s not much difference in the photos, but even a little dust can cause problems.
 

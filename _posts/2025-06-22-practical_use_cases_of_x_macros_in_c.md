@@ -82,12 +82,12 @@ if (err) {
 
 ### The Problem
 
-Great — we have good log messages now. But what if we want to add a new error?
+Great - we have good log messages now. But what if we want to add a new error?
 We would have to enter almost the same information in two places. First, we’d need to add
 another entry to the `SpiErr` enum. Then, we’d need to add another case to our `SpiErrStr`
 function to cover the new error type. This can become annoying when the enum changes often.
 
-It can also be error-prone — if we forget to add the new case to the `SpiErrStr` function,
+It can also be error-prone - if we forget to add the new case to the `SpiErrStr` function,
 then a known error will be printed as `"UNKNOWN"`, which may cause confusion.
 It’s also possible to make a mistake and show the wrong string for an enum value,
 especially if the function was written using copy-paste.
@@ -108,7 +108,7 @@ In this case, the list of error codes. Each error code is defined using an X mac
     X(SPI_ERR_NOT_INITIALIZED)
 ```
 
-We’ve defined our data — the list of error codes.
+We’ve defined our data - the list of error codes.
 Now we can transform this into logic and definitions.
 
 #### Generating "typedef enum"
@@ -123,7 +123,7 @@ typedef enum {
 } SpiErr;
 ```
 
-When the preprocessor parses this, it sees `typedef enum {` — no macro yet.
+When the preprocessor parses this, it sees `typedef enum {` - no macro yet.
 Then we define `X(name)` as `name,`. So when `SPI_ERR_LIST` is processed,
 each `X(...)` line turns into an enum constant followed by a comma.
 After that, we `#undef X` to avoid conflicts with future uses.
@@ -154,7 +154,7 @@ const char* spi_err_to_str(SpiErr err) {
 }
 ```
 Here, `X(name)` expands to a case label and a return statement.
-The `#` is the "stringizing operator" — it turns a macro parameter into a string literal.
+The `#` is the "stringizing operator" - it turns a macro parameter into a string literal.
 
 So the preprocessed output will be:
 ```c
@@ -175,7 +175,7 @@ const char* SpiErrStr(SpiErr err) {
     }
 }
 ```
-But wait — those strings include the `SPI_ERR_` prefix.
+But wait - those strings include the `SPI_ERR_` prefix.
 If you're working on a resource-constrained system like a microcontroller, you might not want
 those prefixes in the log output to save flash memory or reduce UART bandwidth.
 
@@ -210,7 +210,7 @@ One downside: SPI_ERR_ appears in two places. You might think to do:
 #define X(name) PREFIX ## name,
 ```
 Unfortunately, that won’t work because of how the C preprocessor handles macro expansion.
-You'd need macro indirection — a more advanced topic worth its own post.
+You'd need macro indirection - a more advanced topic worth its own post.
 
 
 ## Use Case 2: GPIO Initialization
@@ -294,7 +294,7 @@ void initGpio(void) {
     //   - Set direction (IN or OUT)
     //   - Set initial value (for OUT pins)
     // The macro list `BUTTON_TEST_BOARD_ALL_PINS` will now "call" X(...)
-    // oncew per line — expanding into real C code.
+    // oncew per line - expanding into real C code.
 #define X(label, pin, direction, init_state, pull_up) \
     printf("Initializing " #label " pin...\n"); \
     gpio_init(pin); \
@@ -309,7 +309,7 @@ void initGpio(void) {
 
     // Second pass: only needed for input pins.
     // So we only iterate over BUTTON_TEST_BOARD_INPUT_PINS.
-    // Again, we redefine X(...) with new logic — this time for pull config.
+    // Again, we redefine X(...) with new logic - this time for pull config.
 #define X(label, pin, direction, init_state, pull_up) \
     printf("Initializing pin " #label " pull-up/pull-down...\n"); \
     if (pull_up) { \

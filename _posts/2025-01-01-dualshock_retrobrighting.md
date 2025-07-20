@@ -18,7 +18,7 @@ properly. This article is written for entertainment purposes only.
 In this post, I'll show you how I did my retrobrighting project on the original PSX DualShock controller.
 It's not uncommon for old electronics to turn yellow over time. In the picture below, you can see
 that this controller is very far from its original gray color. There is a well-known method that helps
-to remove yellowing — submerging the yellowed parts in hydrogen peroxide and exposing them to UV light for some time.
+to remove yellowing - submerging the yellowed parts in hydrogen peroxide and exposing them to UV light for some time.
 Let's see if we can bring back its original look!
 
 ![psx_dual_shock_yellowed.jpg](/assets/images/psx_dual_shock_yellowed.jpg)
@@ -33,8 +33,8 @@ part of the top shell is yellow and discolored.
 ![psx_dual_shock_teardown.jpg](/assets/images/psx_dual_shock_teardown.jpg)
 
 Aside from retrobrighting, since the controller is already disassembled, I cleaned the PCB and all other
-elements with isopropyl alcohol. There was a lot of dirt, and a good cleaning — especially of the button contact
-points — ensures this controller will work well. As for the plastic parts, I washed them in warm soapy water.
+elements with isopropyl alcohol. There was a lot of dirt, and a good cleaning - especially of the button contact
+points - ensures this controller will work well. As for the plastic parts, I washed them in warm soapy water.
 
 ## Preparing the Setup
 
@@ -103,7 +103,7 @@ The cable and the connector were not submerged in the solution.
 
 While I'm happy with the results overall, there is one thing that makes me wonder if the whole process
 went perfectly. When you take a close look at some areas on the back of the controller shell,
-you can see some inconsistencies in the brightness — small spots or "patches". It looks like the reaction did not
+you can see some inconsistencies in the brightness - small spots or "patches". It looks like the reaction did not
 take place at the same intensity across all areas. I wouldn't have expected that, because the aluminum foil
 was supposed to reflect the light and help it reach every corner of the controller shell. This is something
 I might want to research further when working on the next retrobrighting project.

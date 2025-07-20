@@ -16,7 +16,7 @@ In this post, I will present an interesting feature introduced in C11: the `_Gen
 ## Use case 1: Function Overloading
 Unlike C++, C does not support function overloading, which means we have to write separate functions that perform similar operations on different data types.
 
-To illustrate a simple example of overloading, consider the following C++ code that defines two versions of the `calculateArea` function — one for squares and the other for circles. The compiler selects the appropriate implementation based on the object type passed to the function.
+To illustrate a simple example of overloading, consider the following C++ code that defines two versions of the `calculateArea` function - one for squares and the other for circles. The compiler selects the appropriate implementation based on the object type passed to the function.
 
 ```cpp
 #include <iostream>
