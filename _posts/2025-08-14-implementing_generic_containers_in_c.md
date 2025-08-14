@@ -494,7 +494,7 @@ post](https://www.kusinski.net/programming/c_generic_keyword)
 |------------------|:------------:|:------:|
 | Code Size        |     :+1:     | :-1:   |
 | Easy to use API  |     :-1:     | :+1:   |
-| Code readability |     :-1:     | :+1:   |
+| Code readability |     :+1:     | :-1:   |
 | Modularity       |     :+1:     | :-1:   |
 
 ### Code Size
