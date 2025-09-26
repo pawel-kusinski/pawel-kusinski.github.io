@@ -3,7 +3,7 @@ title: "Practical Use Cases of X Macros in C"
 excerpt: "An X macro is a powerful preprocessor technique in which we define a list of data entries.
 This data list is then plugged into logic blocks that are executed once per data entry.
 Using X macros can help minimize writing repetitive code."
-last_modified_at: 2025-06-24
+last_modified_at: 2025-09-26
 categories:
   - Programming
 tags:
@@ -144,7 +144,7 @@ typedef enum {
 Previously we saw that the `SpiErrStr` function is just a bunch of cases
 that return strings. That’s repetitive. With X macros:
 ```c
-const char* spi_err_to_str(SpiErr err) {
+const char* SpiErrStr(SpiErr err) {
     switch (err) {
 #define X(name) case name: return #name;
         SPI_ERR_LIST
@@ -194,7 +194,7 @@ typedef enum {
 #undef X
 } SpiErr;
 
-const char* spi_err_to_str(SpiErr err) {
+const char* SpiErrStr(SpiErr err) {
     switch (err) {
 #define X(name) case SPI_ERR_ ## name: return #name;
         SPI_ERR_LIST
