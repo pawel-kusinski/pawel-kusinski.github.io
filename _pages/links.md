@@ -20,3 +20,6 @@ Other:
 - [802.3-2022 - IEEE Standard for Ethernet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9844436)
 - [802.3-2018 - IEEE Standard for Ethernet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8457469)
 
+## Other Standards
+- [CAN Specification Version 2.0](https://web.archive.org/web/20221010170747/http://esd.cs.ucr.edu/webres/can20.pdf)
+
