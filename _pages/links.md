@@ -4,8 +4,14 @@ title: "Links"
 classes: wide
 ---
 
-## C Programming Language Standard
+## FreeRTOS Books
+- [FreeRTOS Reference Manual v10.0.0 issue 1](https://freertos.org/media/2018/FreeRTOS_Reference_Manual_V10.0.0.pdf)
+- [FreeRTOS Reference Manual v8.2.1 issue 1](https://freertos.org/media/2025/FreeRTOS_Reference_Manual_V8.2.1.pdf)
 
+- [Mastering the FreeRTOS™ Real Time Kernel - A Hands-On Tutorial Guide v1.1.0](https://github.com/FreeRTOS/FreeRTOS-Kernel-Book/releases/download/V1.1.0/Mastering-the-FreeRTOS-Real-Time-Kernel.v1.1.0.pdf)
+- [Mastering the FreeRTOS™ Real Time Kernel - A Hands-On Tutorial Guide v1.0](https://github.com/FreeRTOS/FreeRTOS-Kernel-Book/releases/download/V1.0/Mastering-the-FreeRTOS-Real-Time-Kernel.v1.0.pdf)
+
+## C Programming Language Standard
 Latest free drafts:
 - [C23 (ISO/IEC 9899:2024)](https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3220.pdf)
 - [C17 (ISO/IEC 9899:2018)](https://www.open-std.org/jtc1/sc22/wg14/www/docs/n2310.pdf)
