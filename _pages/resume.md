@@ -47,6 +47,8 @@ Oct 2011 - Feb 2015
 [Kielce University of Technology](https://international.tu.kielce.pl)
 
 ## Skills and Keywords
+[![Skill Icons](https://skillicons.dev/icons?i=c,cpp,py,markdown,cmake,linux,debian,ubuntu,raspberrypi,arduino,git,gitlab,github,vim)](https://skillicons.dev)
+
 Firmware, Embedded Systems, Device Drivers, Microcontrollers,
 C, C++, Python, Pytest, CMake, MISRA C, UML, FreeRTOS, Zephyr, Embedded Linux, PIC32,
 Raspberry Pi Pico, nRF52, ESP32, ARM, Linux, UART, SPI, I2C, CAN Bus, LIN, RS-485,
