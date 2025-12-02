@@ -21,7 +21,7 @@ that this controller is very far from its original gray color. There is a well-k
 to remove yellowing - submerging the yellowed parts in hydrogen peroxide and exposing them to UV light for some time.
 Let's see if we can bring back its original look!
 
-![psx_dual_shock_yellowed.jpg](/assets/images/psx_dual_shock_yellowed.jpg)
+![psx_dual_shock_yellowed.webp](/assets/images/psx_dual_shock_yellowed.webp)
 
 ## Taking the DualShock Apart
 
@@ -30,7 +30,7 @@ and analog sticks. The picture below shows even better how yellowed this thing i
 The inner part of the bottom shell is nice and bright gray, while the outer
 part of the top shell is yellow and discolored.
 
-![psx_dual_shock_teardown.jpg](/assets/images/psx_dual_shock_teardown.jpg)
+![psx_dual_shock_teardown.webp](/assets/images/psx_dual_shock_teardown.webp)
 
 Aside from retrobrighting, since the controller is already disassembled, I cleaned the PCB and all other
 elements with isopropyl alcohol. There was a lot of dirt, and a good cleaning - especially of the button contact
@@ -51,7 +51,7 @@ Measurements:
 * Lid size: 31.3 x 20.3 cm
 * Box height (without lid): 12.8 cm
 
-![retrobright_clear_plastic_container.jpg](/assets/images/retrobright_clear_plastic_container.jpg)
+![retrobright_clear_plastic_container.webp](/assets/images/retrobright_clear_plastic_container.webp)
 
 **UV Light Source**
 
@@ -59,8 +59,8 @@ I got a 5-meter-long UV LED strip. It comes with a 12V DC adapter and includes D
 so I didn't need to cut or solder wires.
 
 <figure class="half">
-	<a href="/assets/images/retrobright_uv_strip_box.jpg"><img src="/assets/images/retrobright_uv_strip_box.jpg"></a>
-	<a href="/assets/images/retrobright_uv_strip_set.jpg"><img src="/assets/images/retrobright_uv_strip_set.jpg"></a>
+	<a href="/assets/images/retrobright_uv_strip_box.webp"><img src="/assets/images/retrobright_uv_strip_box.webp"></a>
+	<a href="/assets/images/retrobright_uv_strip_set.webp"><img src="/assets/images/retrobright_uv_strip_set.webp"></a>
 	<figcaption>UV LED Strip</figcaption>
 </figure>
 
@@ -80,9 +80,9 @@ as well as over the container lid. I finished the wrapping with a layer of clear
 over time.
 
 <figure class="third">
-	<a href="/assets/images/retrobright_container_step_1.jpg"><img src="/assets/images/retrobright_container_step_1.jpg"></a>
-	<a href="/assets/images/retrobright_container_step_2.jpg"><img src="/assets/images/retrobright_container_step_2.jpg"></a>
-	<a href="/assets/images/retrobright_container_step_3.jpg"><img src="/assets/images/retrobright_container_step_3.jpg"></a>
+	<a href="/assets/images/retrobright_container_step_1.webp"><img src="/assets/images/retrobright_container_step_1.webp"></a>
+	<a href="/assets/images/retrobright_container_step_2.webp"><img src="/assets/images/retrobright_container_step_2.webp"></a>
+	<a href="/assets/images/retrobright_container_step_3.webp"><img src="/assets/images/retrobright_container_step_3.webp"></a>
 	<figcaption>Preparing the UV Container</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ I poured the hydrogen peroxide into the container and then submerged the DualSho
 clear glass mugs to prevent the plastic parts from floating, as we want them to be fully submerged at all times.
 After that, I turned on the UV light and covered the container with the lid.
 
-![psx_dual_shock_retrobright_setup.jpg](/assets/images/psx_dual_shock_retrobright_setup.jpg)
+![psx_dual_shock_retrobright_setup.webp](/assets/images/psx_dual_shock_retrobright_setup.webp)
 
 ## Results
 
@@ -99,7 +99,7 @@ better than before. All yellowing is gone, and it looks fresh and clean. The dif
 you compare the color of the connector and the controller itself.
 The cable and the connector were not submerged in the solution.
 
-![psx_dual_shock_after_retrobright.jpg](/assets/images/psx_dual_shock_after_retrobright.jpg)
+![psx_dual_shock_after_retrobright.webp](/assets/images/psx_dual_shock_after_retrobright.webp)
 
 While I'm happy with the results overall, there is one thing that makes me wonder if the whole process
 went perfectly. When you take a close look at some areas on the back of the controller shell,
@@ -108,7 +108,7 @@ take place at the same intensity across all areas. I wouldn't have expected that
 was supposed to reflect the light and help it reach every corner of the controller shell. This is something
 I might want to research further when working on the next retrobrighting project.
 
-![psx_dual_shock_retrobright_imperfections.jpg](/assets/images/psx_dual_shock_retrobright_imperfections.jpg)
+![psx_dual_shock_retrobright_imperfections.webp](/assets/images/psx_dual_shock_retrobright_imperfections.webp)
 
 One more thing that could be done next time is to check how we can retrobright the cable, the connector, and
 the ferrite ring. The tricky part about the cable is that while it's easy to remove it from the PCB by desoldering it

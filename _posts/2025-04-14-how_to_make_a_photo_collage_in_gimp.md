@@ -26,7 +26,7 @@ In this post, I will explain how to make a simple photo collage in GIMP.
 2. A window called **Create a New Image** will appear.
 3. Enter the dimensions in the **Image Size** section: *1024* for **Width** and *768* for **Height**.
 4. Click the **OK** button.
-![gimp_collage_create_a_new_image.png](/assets/images/gimp_collage_create_a_new_image.png)
+![gimp_collage_create_a_new_image.webp](/assets/images/gimp_collage_create_a_new_image.webp)
 
 ### Step 2: Create Guidelines
 
@@ -39,14 +39,14 @@ In this post, I will explain how to make a simple photo collage in GIMP.
 7. Set **Direction** to **Vertical** and keep **Position (in %)** at *50.00*. Click the **OK** button.
 8. A vertical dashed line dividing the canvas in half will appear.
 9. Make sure **View -> Snap to Guides** is enabled.
-![gimp_collage_guidelines.png](/assets/images/gimp_collage_guidelines.png)
+![gimp_collage_guidelines.webp](/assets/images/gimp_collage_guidelines.webp)
 
 ### Step 3: Open Images
 
 1. Click on **File -> Open as Layers...**
 2. A window called **Open Image as Layers** will appear. Select your images and click the **Open** button.
 3. Each image will appear as a layer in the **Layers** panel.
-![gimp_collage_layers.png](/assets/images/gimp_collage_layers.png)
+![gimp_collage_layers.webp](/assets/images/gimp_collage_layers.webp)
 
 ### Step 4: Arrange the Images
 
@@ -58,8 +58,8 @@ In this post, I will explain how to make a simple photo collage in GIMP.
 6. If an image is outside the canvas boundaries, it can still be selected using the **Move Tool**. It will appear as a yellow outline, as shown in the screenshot below.
 
 <figure class="half">
-	<a href="/assets/images/gimp_collage_scale.png"><img src="/assets/images/gimp_collage_scale.png"></a>
-	<a href="/assets/images/gimp_collage_arranging.png"><img src="/assets/images/gimp_collage_arranging.png"></a>
+	<a href="/assets/images/gimp_collage_scale.webp"><img src="/assets/images/gimp_collage_scale.webp"></a>
+	<a href="/assets/images/gimp_collage_arranging.webp"><img src="/assets/images/gimp_collage_arranging.webp"></a>
 </figure>
 
 ### Step 5: Export the Collage
@@ -70,7 +70,7 @@ In this post, I will explain how to make a simple photo collage in GIMP.
 4. Enter a file name, choose a location, and click the **Export** button.
 5. Depending on the format, an additional window may appear with format-specific settings.
 6. Click the **Export** button again. You're done!
-![gimp_collage_export.png)](/assets/images/gimp_collage_export.png)
+![gimp_collage_export.webp)](/assets/images/gimp_collage_export.webp)
 
 ## Notes
 

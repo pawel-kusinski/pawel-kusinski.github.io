@@ -79,7 +79,7 @@ $ exiftool IMG_0002.JPEG | grep "Camera Model"
 Camera Model Name : iPhone 12 mini
 ```
 We can see the same metadata in the File Manager GUI:
-![photo_metadata_in_dolphin_file_manager.png](/assets/images/photo_metadata_in_dolphin_file_manager.png)
+![photo_metadata_in_dolphin_file_manager.webp](/assets/images/photo_metadata_in_dolphin_file_manager.webp)
 
 #### Command to Delete Metadata
 Here’s the basic command. Aside from removing
@@ -106,7 +106,7 @@ $ exiftool IMG_0002.JPEG | grep "Camera Model"
 ```
 
 In the File Manager "Details" tab, all metadata is gone as well:
-![photo_deleted_metadata_in_dolphin_file_manager.png](/assets/images/photo_deleted_metadata_in_dolphin_file_manager.png)
+![photo_deleted_metadata_in_dolphin_file_manager.webp](/assets/images/photo_deleted_metadata_in_dolphin_file_manager.webp)
 
 ## Links
 

@@ -26,8 +26,8 @@ Today's patient is a PSOne - the smaller variant of the original PlayStation (PS
 * Made in China - the other PSOne from this lot is marked "Made in Japan," so I think it's worth documenting the difference.
 
 <figure class="half">
-    <a href="/assets/images/psone_2_first_check.jpg"><img src="/assets/images/psone_2_first_check.jpg"></a>
-    <a href="/assets/images/psone_2_back_first_check.jpg"><img src="/assets/images/psone_2_back_first_check.jpg"></a>
+    <a href="/assets/images/psone_2_first_check.webp"><img src="/assets/images/psone_2_first_check.webp"></a>
+    <a href="/assets/images/psone_2_back_first_check.webp"><img src="/assets/images/psone_2_back_first_check.webp"></a>
     <figcaption>Pictures taken after the first test and before opening</figcaption>
 </figure>
 
@@ -56,8 +56,8 @@ This PSOne, however, wasn’t easy to open. All the screws were stripped - some 
 This is usually caused by using the wrong screwdriver size, overtightening (causing the driver to slip), or just from being opened and reassembled too many times. Screws made from softer metals deform more easily.
 
 <figure class="half">
-    <a href="/assets/images/psone_2_stripped_screw_1.jpg"><img src="/assets/images/psone_2_stripped_screw_1.jpg"></a>
-    <a href="/assets/images/psone_2_stripped_screw_2.jpg"><img src="/assets/images/psone_2_stripped_screw_2.jpg"></a>
+    <a href="/assets/images/psone_2_stripped_screw_1.webp"><img src="/assets/images/psone_2_stripped_screw_1.webp"></a>
+    <a href="/assets/images/psone_2_stripped_screw_2.webp"><img src="/assets/images/psone_2_stripped_screw_2.webp"></a>
     <figcaption>Stripped screws</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ To try it, place a wide rubber band over the screw head, then press the screwdri
 If the screw isn't completely destroyed, this method can work.
 
 <figure>
-    <a href="/assets/images/stripped_screw_rubber_band_method.jpg"><img src="/assets/images/stripped_screw_rubber_band_method.jpg"></a>
+    <a href="/assets/images/stripped_screw_rubber_band_method.webp"><img src="/assets/images/stripped_screw_rubber_band_method.webp"></a>
     <figcaption>Rubber Band Method</figcaption>
 </figure>
 
@@ -91,8 +91,8 @@ It didn’t work in my case.
 It involves drilling through the screw head until it detaches from the shaft. I used this method for the remaining 3 screws and was finally able to open the console.
 
 <figure class="half">
-    <a href="/assets/images/psone_2_drilled_through_screw.jpg"><img src="/assets/images/psone_2_drilled_through_screw.jpg"></a>
-    <a href="/assets/images/psone_2_drilled_through_screw_head.jpg"><img src="/assets/images/psone_2_drilled_through_screw_head.jpg"></a>
+    <a href="/assets/images/psone_2_drilled_through_screw.webp"><img src="/assets/images/psone_2_drilled_through_screw.webp"></a>
+    <a href="/assets/images/psone_2_drilled_through_screw_head.webp"><img src="/assets/images/psone_2_drilled_through_screw_head.webp"></a>
     <figcaption>After drilling through the screw head</figcaption>
 </figure>
 
@@ -107,8 +107,8 @@ This was my first time doing this, and while it worked, I learned a few lessons:
 I wasn’t patient enough, and while drilling one of the screws, I applied too much pressure. My drill shaved off some PCB and a connector. Luckily, there were no copper traces in that area - just the ground plane - so the damage didn't affect functionality. Next time, I’ll be more careful.
 
 <figure class="half">
-    <a href="/assets/images/psone_2_drilled_through_pcb.jpg"><img src="/assets/images/psone_2_drilled_through_pcb.jpg"></a>
-    <a href="/assets/images/psone_2_drilled_through_pcb_back.jpg"><img src="/assets/images/psone_2_drilled_through_pcb_back.jpg"></a>
+    <a href="/assets/images/psone_2_drilled_through_pcb.webp"><img src="/assets/images/psone_2_drilled_through_pcb.webp"></a>
+    <a href="/assets/images/psone_2_drilled_through_pcb_back.webp"><img src="/assets/images/psone_2_drilled_through_pcb_back.webp"></a>
     <figcaption>Some minor PCB and connector damage after drilling</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ To fix the issue, capacitors C550 and C551 should be replaced.
 In the picture below, you can see what these capacitors looked like in my PSOne.
 
 <figure>
-    <a href="/assets/images/psone_2_bad_caps.jpg"><img src="/assets/images/psone_2_bad_caps.jpg"></a>
+    <a href="/assets/images/psone_2_bad_caps.webp"><img src="/assets/images/psone_2_bad_caps.webp"></a>
     <figcaption>Dry deposits around original capacitors C550 and C551, indicating leakage</figcaption>
 </figure>
 
@@ -144,16 +144,16 @@ I heated one pad at a time while gently lifting the capacitor. I alternated side
 I’m not very experienced with hot air tools, and the plastic parts around made me nervous, so the iron was the better choice here.
 
 <figure class="half">
-    <a href="/assets/images/psone_2_original_caps_removed.jpg"><img src="/assets/images/psone_2_original_caps_removed.jpg"></a>
-    <a href="/assets/images/psone_2_cap_pads_clean.jpg"><img src="/assets/images/psone_2_cap_pads_clean.jpg"></a>
+    <a href="/assets/images/psone_2_original_caps_removed.webp"><img src="/assets/images/psone_2_original_caps_removed.webp"></a>
+    <a href="/assets/images/psone_2_cap_pads_clean.webp"><img src="/assets/images/psone_2_cap_pads_clean.webp"></a>
     <figcaption>Removing old capacitors and cleaning up before installing fresh ones</figcaption>
 </figure>
 
 After replacing the capacitors, the video output worked. Very satisfying!
 
 <figure class="half">
-    <a href="/assets/images/psone_2_new_caps_installed.jpg"><img src="/assets/images/psone_2_new_caps_installed.jpg"></a>
-    <a href="/assets/images/psone_2_video_out_test.jpg"><img src="/assets/images/psone_2_video_out_test.jpg"></a>
+    <a href="/assets/images/psone_2_new_caps_installed.webp"><img src="/assets/images/psone_2_new_caps_installed.webp"></a>
+    <a href="/assets/images/psone_2_video_out_test.webp"><img src="/assets/images/psone_2_video_out_test.webp"></a>
     <figcaption>Capacitors replaced. The video output works!</figcaption>
 </figure>
 
@@ -163,8 +163,8 @@ I was curious to measure the old capacitors. I soldered leads to their pads to p
 They showed capacitance in pico- and nano-Farads - nowhere near the expected 220 µF. Definitely bad.
 
 <figure class="half">
-    <a href="/assets/images/psone_2_cap_1_reading.jpg"><img src="/assets/images/psone_2_cap_1_reading.jpg"></a>
-    <a href="/assets/images/psone_2_cap_2_reading.jpg"><img src="/assets/images/psone_2_cap_2_reading.jpg"></a>
+    <a href="/assets/images/psone_2_cap_1_reading.webp"><img src="/assets/images/psone_2_cap_1_reading.webp"></a>
+    <a href="/assets/images/psone_2_cap_2_reading.webp"><img src="/assets/images/psone_2_cap_2_reading.webp"></a>
     <figcaption>Old, faulty capacitors readings</figcaption>
 </figure>
 
@@ -179,9 +179,9 @@ I soaked a cotton bud in isopropyl alcohol and gently wiped the lenses. To my su
 In the pictures below, you can see the laser before and after cleaning. It wasn’t visibly dirty, and there’s not much difference in the photos, but even a little dust can cause problems.
 
 <figure class="third">
-    <a href="/assets/images/psone_2_dirty_lenses.jpg"><img src="/assets/images/psone_2_dirty_lenses.jpg"></a>
-    <a href="/assets/images/psone_2_laser_cleaned.jpg"><img src="/assets/images/psone_2_laser_cleaned.jpg"></a>
-    <a href="/assets/images/psone_2_disc_spin.jpg"><img src="/assets/images/psone_2_disc_spin.jpg"></a>
+    <a href="/assets/images/psone_2_dirty_lenses.webp"><img src="/assets/images/psone_2_dirty_lenses.webp"></a>
+    <a href="/assets/images/psone_2_laser_cleaned.webp"><img src="/assets/images/psone_2_laser_cleaned.webp"></a>
+    <a href="/assets/images/psone_2_disc_spin.webp"><img src="/assets/images/psone_2_disc_spin.webp"></a>
     <figcaption>Laser before and after cleaning. Now the disc spins and loads.</figcaption>
 </figure>
 
@@ -194,9 +194,9 @@ Drilling the screw heads off left the shafts embedded in their inserts. Some stu
 One screw didn’t stick out far enough. I had to cut about 1 mm off the insert to expose more of the shaft. It looks a bit rough, but it doesn't affect the shell structurally.
 
 <figure class="third">
-    <a href="/assets/images/psone_2_screw_stuck.jpg"><img src="/assets/images/psone_2_screw_stuck.jpg"></a>
-    <a href="/assets/images/psone_2_screw_stuck_cut_insert.jpg"><img src="/assets/images/psone_2_screw_stuck_cut_insert.jpg"></a>
-    <a href="/assets/images/psone_2_screw_stuck_cut_insert_done.jpg"><img src="/assets/images/psone_2_screw_stuck_cut_insert_done.jpg"></a>
+    <a href="/assets/images/psone_2_screw_stuck.webp"><img src="/assets/images/psone_2_screw_stuck.webp"></a>
+    <a href="/assets/images/psone_2_screw_stuck_cut_insert.webp"><img src="/assets/images/psone_2_screw_stuck_cut_insert.webp"></a>
+    <a href="/assets/images/psone_2_screw_stuck_cut_insert_done.webp"><img src="/assets/images/psone_2_screw_stuck_cut_insert_done.webp"></a>
     <figcaption>Screw that was stuck in the insert</figcaption>
 </figure>
 
@@ -206,6 +206,6 @@ The shell was dirty and had lots of scuffs and marks. I cleaned it and all plast
 More stubborn marks were removed using isopropyl alcohol. Now the console looks nice and clean.
 
 <figure>
-    <a href="/assets/images/psone_2_after_cleaning.jpg"><img src="/assets/images/psone_2_after_cleaning.jpg"></a>
+    <a href="/assets/images/psone_2_after_cleaning.webp"><img src="/assets/images/psone_2_after_cleaning.webp"></a>
     <figcaption>After final cleaning</figcaption>
 </figure>
