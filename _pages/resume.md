@@ -16,10 +16,15 @@ communication protocols, and debugging hardware issues during board bring-up.
 
 ## Experience
 
-### Firmware Engineer
-**Apr 2019 – Present | Confidential | Abu Dhabi, UAE**
+### Senior Firmware Engineer
+**Jan 2026 – Present | Confidential | Abu Dhabi, UAE**
 
-End-to-end firmware development for embedded systems using C, C++, RTOS, embedded Linux, and much more.
+Even more end-to-end firmware development for embedded systems using C, C++, RTOS, Embedded Linux, and beyond.
+
+### Firmware Engineer
+**Apr 2019 – Dec 2025 | Confidential | Abu Dhabi, UAE**
+
+End-to-end firmware development for embedded systems using C, C++, RTOS, Embedded Linux, and more.
 
 ### Software Engineer
 **Jun 2018 – Mar 2019 | [Nokia](https://www.nokia.com/) | Krakow, Poland**
