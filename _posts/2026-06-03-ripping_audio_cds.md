@@ -1,5 +1,6 @@
 ---
 title: "Ripping Audio CDs"
+last_modified_at: 2026-09-27
 excerpt: "Personal notes on ripping audio CDs to FLAC or MP3 on Linux using abcde.
 Includes software installation, configuration, and basic usage for extracting
 and encoding audio tracks from CDs."
@@ -47,6 +48,7 @@ $ sudo apt install lame
 ```
 
 ## Ripping a CD
+### Basic Workflow
 1. Insert the CD into the optical disc drive.
 2. Navigate to a directory where you want the CD audio files to be stored.
    For example:
@@ -117,6 +119,31 @@ $ ~/Music ls -1 Jean_Michel_Jarre-Oxygène
 5.Oxygène,_Part_V.flac
 6.Oxygène,_Part_VI.flac
 ```
+
+### Special Case: Multi-CD releases
+
+Following the basic workflow above for multi-CD releases is not ideal, as usually, all tracks
+end up in the same directory, and the track number resets as you rip subsequent discs.
+To solve this problem, use the `-W [number]` option, where `number` is the CD number.
+For example, after inserting disc 1, run:
+
+```bash
+abcde -W 1 -o flac
+```
+
+The ripped tracks will be saved in the same directory as if the `-W` option was not used,
+but the file names are now, by default, prefixed with the disc number. For example, the first track
+starts with 101 instead of 01.
+After the first CD is ripped, insert the second CD and run:
+
+```bash
+abcde -W 2 -o flac
+```
+
+Now, the first track will start with "201" instead of "01".
+According to the man page, the `number` is also used for the FLAC `DISCNUMBER` tag,
+which is useful for viewing and managing the collection in music players that support tags.
+
 ## Links
 * [abcde - A Better CD Encoder website](https://abcde.einval.com/wiki/FrontPage)
 * [abcde(1) - Linux man page](https://linux.die.net/man/1/abcde)
