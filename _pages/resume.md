@@ -29,7 +29,7 @@ End-to-end firmware development for embedded systems using C, C++, RTOS, Embedde
 ### Software Engineer
 **Jun 2018 – Mar 2019 | [Nokia](https://www.nokia.com/) | Krakow, Poland**
 
-C++ software for LTE base stations in Agile setup.
+C++ software for LTE base stations.
 
 ### Software Engineer
 **Aug 2015 – May 2018 | [Aptiv](https://www.aptiv.com/) | Krakow, Poland**
